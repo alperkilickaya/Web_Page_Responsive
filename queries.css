@@ -1,0 +1,225 @@
+
+/*-------------------------------------------------------------------------------------*/
+/* MEDIA QUERIES */
+/*-------------------------------------------------------------------------------------*/
+
+@media (max-width:1200px) {
+    .servicesfooter{
+        position: static;
+    }
+    .aboutfooter{
+        position: static;
+    }
+
+
+}    
+
+
+@media (min-width: 480px) and (max-width:768px) {
+    html {
+      font-size: 1.3rem;
+    }
+
+    /*Home*/
+  
+    .home__header {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .home__nav {
+      flex-direction: column;
+    }
+  
+    .home__nav--links {
+      font-size:0.8rem;
+      margin: 0;
+      padding: 0.3rem;
+    }
+
+    .home__nav--links a {
+        padding: 0;
+        margin: 0;
+      }
+
+    .home__main{
+        font-size:1rem;
+      }
+
+    .home__section{
+        flex-direction: column;
+    }  
+
+    .home__section--features{
+        margin-bottom: 0.8rem;
+    }
+
+    .home__section img {
+        width: 20%;
+    }
+    .subscribe{
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .subscribe div {
+        margin-top:8px;
+    }
+
+     /*About*/
+
+    .about__main p{
+        font-size: 0.8rem;
+    }
+
+    .aboutus {
+        display: block;
+        height: 250px;
+        float: none;
+        width: 100%;
+    }
+
+    .whatwedo {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+
+    .aboutfooter{
+        position: static;
+    }
+
+     /*Services*/
+     .services__container{
+        margin-bottom: 50px;
+    }
+
+     .services {
+        width: 100%;
+        float: none;
+        font-size: 0.1rem;
+    }
+
+    .services div {
+
+        margin-left: 0;
+        
+    }
+
+    .services__form {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .servicesfooter {
+        position: static;
+    }
+
+  }
+
+@media (max-width: 480px) {
+    html {
+      font-size: 1.3rem;
+    }
+
+    /*Home*/
+  
+    .home__header {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .home__nav {
+      flex-direction: column;
+    }
+  
+    .home__nav--links {
+      font-size:0.8rem;
+      margin: 0;
+      padding: 0.3rem;
+    }
+
+    .home__nav--links a {
+        padding: 0;
+        margin: 0;
+      }
+
+    .home__main{
+        font-size:1rem;
+      }
+
+    .home__section{
+        flex-direction: column;
+    }  
+
+    .home__section--features{
+        margin-bottom: 0.8rem;
+    }
+
+    .home__section img {
+        width: 25%;
+    }
+    .subscribe{
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .subscribe div {
+        margin-top:8px;
+    }
+
+     /*About*/
+
+    .about__main p{
+        font-size: 0.7rem;
+    }
+
+    .aboutus {
+        display: block;
+        height: 300px;
+        float: none;
+        width: 100%;
+    }
+
+    .whatwedo {
+        display: block;
+        float: none;
+        width: 100%;
+    } 
+
+    .aboutfooter{
+        position: static;
+    }
+
+     /*Services*/
+     .services__container{
+        margin-bottom: 50px;
+    }
+
+     .services {
+        width: 100%;
+        float: none;
+    }
+
+    .services div {
+
+        margin-left: 0;
+        
+    }
+
+    .services__form {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .servicesfooter {
+        position: static;
+    }
+
+  }
+

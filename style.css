@@ -1,0 +1,283 @@
+/*-------------------------------------------------------------------------------------*/
+/* TEMEL AYARLAR */
+/*-------------------------------------------------------------------------------------*/
+* {
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: white;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* HOME */
+/*-------------------------------------------------------------------------------------*/
+
+
+.home__header{
+    background-color: #35424B;
+    text-align:right;
+    border-bottom: 4px solid rgb(197, 14, 197);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home__header span {
+    color:rgb(197, 14, 197);
+}
+
+.home__nav{
+    list-style: none;
+    display:inline-flex;
+}
+
+.home__nav--links{  
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.home__nav a {
+    list-style-type: none;
+    margin-left: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.home__nav a:hover{
+    text-decoration:none;
+    color: rgb(197, 14, 197);
+}
+
+.home__main{
+    background-image: url("images/showcase.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display:inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 0.6rem 0 0.6rem;
+
+}
+
+.home__section{
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:3rem 0 3rem 0;
+    color: black;
+    padding: 0 0.8rem 0 0.8rem;
+}
+
+.home__section--features{
+    padding: 0.3rem;
+}
+
+.home__section img {
+    width: 25%;
+    margin-bottom: 0.5rem;
+
+}
+
+.subscribe{
+    display:flex;
+    background-color:#35424B;
+    justify-content:space-between;
+    color:white;
+    padding:1rem;
+}
+
+.subscribe h2 {
+    font-size: 1.3rem;
+}
+
+.subscribe button{
+    background-color:orangered;
+    color:white;
+    padding:10px;
+}
+.subscribe input{
+    
+    padding:10px;
+}
+
+footer {
+    background-color: #35424B;
+    color: #ffff;
+    text-align: center;
+    padding: 9px;
+    font-size: 0.8rem;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* ABOUT */
+/*-------------------------------------------------------------------------------------*/
+
+.about__main {
+    padding: 10px;
+
+}
+
+.aboutus{
+    width: 60%;
+    height: 300px;
+    float: left;
+    overflow: auto;
+}
+
+.aboutus p {
+    margin-bottom: 1rem;
+    padding: 8px;
+    font-size: 0.9rem;
+}
+
+.aboutus .first {
+    color: black;
+}
+
+.aboutus .second {
+    color: black;
+}
+
+.aboutus .third {
+    color: white;
+    background-color: #35424B;
+}
+
+
+
+.whatwedo{
+    height: 200px;
+    width: 35%;
+    background-color: #35424B;
+    float: right;
+    padding: 15px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    overflow: auto;
+}
+
+.whatwedo p {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.aboutfooter {
+    background-color: #35424a;
+    color: #ffff;
+    text-align: center;
+    padding: 9px;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* SERVICES */
+/*-------------------------------------------------------------------------------------*/
+.services__container{
+    margin-bottom: 100px;
+}
+
+.services {
+    color: black;
+    width: 65%;
+    float: left;
+    margin-top: 1rem;
+}
+
+.services__title{
+    padding-left:10px;
+}
+
+.services p {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.services div {
+    background-color: #E6E6E6;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    
+}
+
+.services__form {
+    font-size: 0.8rem;
+    background-color: #35424a;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+   
+}
+
+.services-form-box {
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+#name,
+#email{
+    width: 80%;
+    height: 30px;
+    margin-top: 8px;
+}
+
+#message {
+    resize: none;
+    width: 80%;
+    margin-top: 8px;
+}
+
+.services-form-btn{
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px;
+    border: none;
+}
+
+.servicesfooter {
+    background-color: #35424a;
+    color: #ffff;
+    text-align: center;
+    padding: 9px;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+}
+
+

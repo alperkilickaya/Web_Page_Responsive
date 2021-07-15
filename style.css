@@ -120,6 +120,11 @@ html, body {
     color:white;
     padding:10px;
 }
+
+.subscribe button:hover{
+    cursor: pointer;
+}
+
 .subscribe input{
     
     padding:10px;
@@ -243,6 +248,8 @@ footer {
     margin-bottom: 10px;
 }
 
+
+
 h4{
     margin-bottom: 5px;
 }
@@ -266,6 +273,9 @@ h4{
     font-size: 0.8rem;
     padding: 3px;
     border: none;
+}
+.services-form-btn:hover{
+    cursor: pointer;
 }
 
 .servicesfooter {
